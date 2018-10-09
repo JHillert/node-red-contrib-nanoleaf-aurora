@@ -28,5 +28,14 @@
 </script>
 
 <script type="text/x-red" data-help-name="brightness">
-    <p>Set Nanoleaf Aurora brightness (integer; 0 -> 100).</p>
+    <p>This will set the brightness of the nanoleaf panel.<br>
+       The payload.value may be one of:</p>
+    <ul>
+    <li><i>integer</i> - brightness between 0 -> 100</li>
+    <li>{<br>
+        brightness: <i>integer</i>,
+        duration: <i>integer</i>
+    }<br>
+    <i>brightness</i> between 0 -> 100 percent; <i>duration</i> for the effect in seconds
+    </li>
 </script>

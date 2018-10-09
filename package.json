@@ -3,7 +3,7 @@
     "name": "John Morrison"
   },
   "dependencies": {
-    "nanoleaf-aurora-client": "1.2.2",
+    "nanoleaf-aurora-client": "1.2.3",
     "request": "2.87.0"
   },
   "deprecated": false,
